@@ -1,0 +1,66 @@
+@import url(https://fonts.googleapis.com/css?family=Raleway:400,500,600);
+
+/* $text: #303336;
+$light-text: #8c98a8;
+$button: #49B956;
+$button-hover: #60CF6F; */
+
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+
+body {
+  background: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/195612/blurred_bg2.jpg")
+    no-repeat center center fixed;
+  background-size: cover;
+  height: 2000px;
+}
+.product-box {
+  display: flex;
+  font: 13px/23px "Raleway", Arial, sans-serif;
+  color: #303336;
+  padding: 40px 0;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+.container {
+  margin: 7px;
+  width: 230px;
+  height: 420px;
+  background: white;
+  border-radius: 5px;
+}
+
+.container img {
+  border-radius: 5px;
+  width: 230px;
+  height: 270px;
+}
+.information {
+  text-align: center;
+  margin-top: 18px;
+}
+
+.name {
+  font-size: 22px;
+}
+
+.store {
+  font-size: 16px;
+  color: #8c98a8;
+  margin-bottom: 28px;
+}
+
+.price {
+  background: #49b956;
+  color: white;
+  font-size: 16px;
+  font-weight: 500;
+  padding: 12px 12px;
+  border-radius: 5px;
+  width: 90px;
+  height: 45px;
+  display: inline;
+}
